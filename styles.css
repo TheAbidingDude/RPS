@@ -1,133 +1,124 @@
-
 html {
-    background: #4c8f5c59;
-  
+	background: hsla(135, 97%, 14%, 0.521);
 }
 
 /* make it all fit to page*/
 
 .flex {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    padding-top: 20px;
+	display: flex;
+	height: 100%;
+	width: 100%;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	padding-top: 20px;
 }
 
-
-
-/* heading */ 
+/* heading */
 
 h1 {
-    color: rgb(70, 13, 9);
-    font-family: Impact, Charcoal, sans-serif;
-    font-size: 75px;
-    margin: 20px;
-
+	color: hsl(4, 77%, 15%);
+	font-family: cursive;
+	font-size: 75px;
+	margin: 20px;
 }
 
-h2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    color: #86273c;
-    margin: 1px;
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 50px;
+	color: hsl(347, 55%, 34%);
+	margin: 1px;
 }
 
 h3 {
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 40px;
-    color: #af3636;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 40px;
+	color: hsl(0, 53%, 45%);
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 /* Outputs: playerScore, computerScore, final round results  */
 
 #roundResults {
-display: flex;
-justify-content: center;
-align-items: center;
-width: 300px;
-height: 100px;
-border: 5px solid rgb(27, 27, 31);
-text-align: center;
-font-weight: bolder;
-font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 300px;
+	height: 100px;
+	border: 5px solid hsl(240, 7%, 11%);
+	text-align: center;
+	font-weight: bolder;
+	font-size: 20px;
 }
 
 .scores {
-    display: flex;
-    flex-direction: row;
+	display: flex;
+	flex-direction: row;
 }
 .scores div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 50px;
-    border: 5px solid rgb(27, 27, 31);
-    margin-top: 3px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 20px; 
-    font-weight: bolder;
-    font-size: 20px;    
-    
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 150px;
+	height: 50px;
+	border: 5px solid hsl(240, 7%, 11%);
+	margin-top: 3px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	font-weight: bolder;
+	font-size: 20px;
 }
 
 /* buttons */
 
 .buttons button {
-    background-color: #5f7e57;
-    border: 4px solid #bd875a;
-    width: 150px;
-    height: 50px;
-    font-size: 30px;
-    font-weight: bold;
-    color: rgb(23, 23, 27);
-    margin-bottom: 30px;
-    }
-
+	background-color: hsl(108, 18%, 42%);
+	border: 4px solid hsl(27, 43%, 55%);
+	width: 150px;
+	height: 50px;
+	font-size: 30px;
+	font-weight: bold;
+	color: hsl(240, 8%, 10%);
+	margin-bottom: 30px;
+}
 
 #reset {
-    width: 120px;
-    height: 40px;
-    margin-top: 20px;
-    background-color: #5f7e57;
-    color: #3b3b3a;
-    font-size: 15x;
-    
-
+	width: 120px;
+	height: 40px;
+	margin-top: 20px;
+	background-color: hsl(108, 18%, 42%);
+	color: hsl(60, 1%, 23%);
+	font-size: 15x;
 }
 
 /* label */
 
 #resultsLabel {
-    font-size: 20px;
-    text-align: center;
-    font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #5f0b3d;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	color: hsl(324, 79%, 21%);
 }
 
-#playerLabel{
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #5f0b3d;
-    padding-left: 12px;
+#playerLabel {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	color: hsl(324, 79%, 21%);
+	padding-left: 12px;
 }
 
-#computerLabel{
-    font-size: 19px;
-    text-align: center;
-    font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #5f0b3d;
-    padding-left: 35px;
-    padding-right: 3px;
+#computerLabel {
+	font-size: 19px;
+	text-align: center;
+	font-weight: bold;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	color: hsl(324, 79%, 21%);
+	padding-left: 35px;
+	padding-right: 3px;
 }
